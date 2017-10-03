@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_margin="10dp">
+
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/Name_textView" tools:text="Oleg"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/MiddleName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/MiddleName_textView" tools:text="Gutsev"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/Surname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/Surname_textView" tools:text="Dmitri"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/Age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/Age_textView" tools:text="18"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/Faculty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"
+                    android:layout_marginBottom="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/Faculty_textView" tools:text="IT"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView
+                    android:text="@string/Speciality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/Speciality_textView" tools:text="POIBMS"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="@string/Back"
+                android:onClick="Back_onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/buttonBack" android:layout_weight="1"
+
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                style="@android:style/Widget.Button.Inset"/>
+        <Button
+                android:text="@string/Save"
+                android:onClick="Save_onClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/Save_button" android:layout_weight="1"
+                style="@android:style/Widget.Button.Inset"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+    </LinearLayout>
+</LinearLayout>

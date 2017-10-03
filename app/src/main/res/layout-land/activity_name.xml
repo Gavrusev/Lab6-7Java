@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="10dp">
+
+    <TextView
+            android:text="@string/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:textSize="15sp"
+            android:id="@+id/Name_editText" tools:text="Oleg"/>
+    <TextView
+            android:text="@string/MiddleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:textSize="15sp"
+            android:id="@+id/MiddleName_editText" tools:text="Gutsev"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/Surname"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:textSize="15sp"
+            android:id="@+id/Surname_editText" tools:text="Dmitrievich"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/Age" android:id="@+id/textView4"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:maxLength="2"
+            android:layout_height="35dp"
+            android:textSize="15sp"
+            android:id="@+id/Age_editText" tools:text="18" android:inputType="number|numberSigned"/>
+    <Button
+
+            android:text="@string/Next"
+            android:layout_width="match_parent"
+            android:onClick="Next_onClick"
+            android:layout_height="wrap_content" android:id="@+id/Next_button"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            style="@android:style/Widget.Button.Inset"/>
+</LinearLayout>

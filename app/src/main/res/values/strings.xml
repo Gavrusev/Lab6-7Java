@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab6-7Java</string>
+    <string name="Student">Student</string>
+    <string name="Listener">Listener</string>
+    <string name="Back">Back</string>
+    <string name="Name">Name</string>
+    <string name="MiddleName">MiddleName</string>
+    <string name="Surname">Surname</string>
+    <string name="Next">Next</string>
+    <string name="Faculty">Faculty</string>
+    <string name="Speciality">Speciality</string>
+    <string name="Age">Age</string>
+    <string name="Save">Save</string>
+    <string name="StudentsList">StudentsList</string>
+    <string name="ListenerList">ListenerList</string>
+    <string name="PersonList">PersonList</string>
+    <string name="CountHours">CountHours</string>
+    <string name="Organisation">Organization</string>
+</resources>
